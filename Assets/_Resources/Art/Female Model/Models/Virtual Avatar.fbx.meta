@@ -3,112 +3,7 @@ guid: c9157ba751982034d97f249aee2448e9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarBody.001
-    second: {fileID: 2100000, guid: 796ae29dd2ee5b24184af58d78a5fcce, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarEyelashes.001
-    second: {fileID: 2100000, guid: b15414af025b5f042b7fe295daec1f8c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarHead.001
-    second: {fileID: 2100000, guid: 4c74e7e3531ca294aaf11d12d3b61c2f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarLeftEyeball.001
-    second: {fileID: 2100000, guid: 9589e2873562c46499acaf9cb1bb1a2e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarTeethLower.001
-    second: {fileID: 2100000, guid: 618ec0e03cd8b2349bf2db65fdc89112, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AvatarTeethUpper.001
-    second: {fileID: 2100000, guid: afb8367650554434ea5b66022cfb4d9f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glass
-    second: {fileID: 2100000, guid: a1964eda65a191a47a2e76f750935a41, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 6065341b83ded8448b7c863be9a16fab, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outfit_bottom.001
-    second: {fileID: 2100000, guid: 22c725b7241bdb24f9a2cd3f9a9f78e5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outfit_shoes.001
-    second: {fileID: 2100000, guid: 5b36b7b32e171af4c9a0d656edbdc5e5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outfit_top.001
-    second: {fileID: 2100000, guid: 73052793206945b41bbe1cb32ef1585b, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: ARPI_Normal_1K
-    second: {fileID: 2800000, guid: 2e22829524cfcba4e83277312f6e3123, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarBodyFemale_Normal1_1K
-    second: {fileID: 2800000, guid: 9341e427d4d777a418a2ebb2121e6abf, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarEyes_Color_512
-    second: {fileID: 2800000, guid: 8c616438172337d46abfe6c772ef3376, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarEyes_Normal_512
-    second: {fileID: 2800000, guid: 8b7d35e2472124c448dd6f071173d263, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarHeadFemale_Color_1K
-    second: {fileID: 2800000, guid: 20a9b3a9f1600e6439cd245ec4108957, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarHeadFemale_Normal1_1K
-    second: {fileID: 2800000, guid: 6e5b3d8bf162e5d49baa74ee4dffdc3c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarTeeth_Color_1K
-    second: {fileID: 2800000, guid: 6d23330f1e8d27f459b2b835e86c5714, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: AvatarTeeth_Normal1_1K
-    second: {fileID: 2800000, guid: 1dd4e0074edae974281c271f970d3153, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: shorts_Vedi_Normal_1K
-    second: {fileID: 2800000, guid: f43839fd934a44a4598df3ed2a47566e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: t-shirt_Vardenis_Normal_1K
-    second: {fileID: 2800000, guid: 948dbcd6b85820341aec861e5f9d82fc, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -179,7 +74,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []

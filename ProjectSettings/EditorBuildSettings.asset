@@ -5,8 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/Samples/uLipSync/3.1.2/12. WebGL/12-2. WebGL x AudioClip
       (Generated at Runtime).unity
     guid: 88ad6cd3444eb4e42b2faa5a09000361
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3a910b65aac45e84482e92ee92fbff73, type: 2}

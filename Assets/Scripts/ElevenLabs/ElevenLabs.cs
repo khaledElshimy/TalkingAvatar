@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 using System;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using CrazyMinnow.SALSA;
 
 
 [Serializable]
@@ -29,7 +30,7 @@ public class ElevenLabs : MonoBehaviour
    public ElevenLabsConfig config;
 
    [SerializeField]
-   private AudioSource audioSource;
+   private Salsa salsa;
 
    [SerializeField]
    private InputField inputField;
@@ -92,7 +93,7 @@ public class ElevenLabs : MonoBehaviour
 
     private void Update() 
     {
-        if (!audioSource.isPlaying && sendButton.interactable ==false)
+        if (!salsa.audioSrc.isPlaying && sendButton.interactable ==false)
         {
             sendButton.interactable = true;
             dropdown.interactable = true;
@@ -156,7 +157,7 @@ public class ElevenLabs : MonoBehaviour
 
         if (audioClip != null)
         {
-            audioSource.clip = audioClip; 
+            salsa.audioSrc.clip = audioClip; 
             PlayAudio(audioClip);
             // Wait for the audio clip to finish playing
             yield return new WaitForSeconds(audioClip.length * 0.1f);
@@ -176,6 +177,6 @@ public class ElevenLabs : MonoBehaviour
 
     private void PlayAudio(AudioClip audioClip)
     {
-       audioSource.PlayOneShot(audioClip);
+       salsa.audioSrc.Play();
     }
 }
